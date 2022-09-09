@@ -9,3 +9,10 @@ else:
         num -= 1
 print("The sum is", sum)
 
+
+num = int(input("Enter a number:"))
+
+if num%2==0:
+    print("Even")
+else:
+    print("Odd")
